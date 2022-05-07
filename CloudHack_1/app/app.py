@@ -5,8 +5,8 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-user = 'DM_GR_GM_GS'           # username as set for the mongodb admin server (the username used in secret.yaml - before base64 conversion)
-password = '144_156_164_166'       # password as set for the mongodb admin server (the password used in secret.yaml - before base64 conversion)
+user = 'SN_TL_SP_SAT'           # username as set for the mongodb admin server (the username used in secret.yaml - before base64 conversion)
+password = '291_317_318_322'       # password as set for the mongodb admin server (the password used in secret.yaml - before base64 conversion)
 host = 'mongodb-service'    # service name of the mongodb admin server as set in mongo-deployment.yaml
 port = '27017'              # port number of the mongodb admin server as set in mongo-deployment.yaml
 
